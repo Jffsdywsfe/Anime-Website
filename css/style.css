@@ -1,0 +1,217 @@
+html,body{
+  background-color: rgb(229, 222, 222);
+  height: 100%;
+  margin: 0;
+}
+
+.header::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: url('/img/2.jpg');
+  z-index: -1;
+  opacity: 0.5;
+}
+.img1{
+  background-image: url(/img/naruto.jpg);
+  min-height: 100%;
+ 
+}
+.img2{
+  background-image: url(/img/onepiece.jpg);
+  min-height: 100%;
+ 
+}
+.img3{
+  background-image: url(/img/dragonball.jpg);
+  min-height:100%;
+ 
+}
+.img4{
+  background-image: url(/img/haikyuu.jpg);
+  min-height: 100%;
+}
+.img5{
+  background-image: url(/img/jujutsu.jpg);
+  min-height: 100%;
+}
+.img6{
+  background-image: url(/img/demon.jpg);
+  min-height: 100%;
+}
+.img7{
+  background-image: url(/img/deathnote.jpg);
+  min-height: 100%;
+}
+/* naruto */
+ .ptext{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+ }
+ .textbg{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background:linear-gradient(rgb(235, 231, 231), rgb(255, 174, 0));
+  color: rgb(37, 34, 34);
+  padding: 10px 90px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+ }
+ .textbg a{
+  text-decoration: none;
+ }
+ .narutobg{
+ padding: 50px 80px;
+ text-align: center;
+ background:linear-gradient(rgb(235, 231, 231), rgb(224, 155, 7));
+ color: rgb(255, 255, 255);
+ }
+
+ /* onepiece */
+ .textbg2{
+  background:linear-gradient(rgb(235, 231, 231), rgb(0, 221, 255));
+  color: rgb(56, 125, 147);
+  padding: 10px 90px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+ }
+ .textbg2 a{
+  text-decoration: none;
+ }
+ .onepiecebg{
+  padding: 30px 90px;
+  text-align: center;
+  background:linear-gradient(rgb(235, 231, 231), rgb(0, 221, 255));
+  color: rgb(56, 125, 147);
+ }
+
+ /* dragonball */
+
+ .textbg3{
+  background:linear-gradient(rgb(235, 231, 231),   #cd1531);
+
+  color: white;
+  padding: 10px 90px;
+  text-transform: uppercase;
+  border-radius:8px ;
+  letter-spacing: 8px;
+ }
+ .textbg3 a{
+  text-decoration: none;
+ }
+ .dragonballbg{
+    padding: 30px 90px;
+    text-align: center;
+    background:linear-gradient(rgb(235, 231, 231),   #cd1531);
+    color: white;
+ }
+
+/* haikyuu */
+.textbg4{
+  background:linear-gradient(rgb(235, 231, 231), rgb(255, 179, 0));
+  color: white;
+  padding: 10px 90px;
+  border-radius:8px ;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+ }
+ .textbg4 a{
+  text-decoration: none;
+ }
+ .haikyuubg{
+    padding: 30px 90px;
+    text-align: center;
+    background:linear-gradient(rgb(235, 231, 231), rgb(255, 179, 0));
+    color: white;
+ }
+ /* jujustu kaisen */
+ .textbg5{
+  background:linear-gradient(rgb(235, 231, 231), rgb(255, 0, 0));
+  color: white;
+  padding: 10px 90px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+ }
+ .textbg5 a{
+  text-decoration: none;
+ }
+ .jujutsubg{
+  padding: 30px 90px;
+
+  text-align: center;
+  background:linear-gradient(rgb(235, 231, 231), rgb(255, 0, 0));
+  columns: white;
+ }
+
+ /* demon slayer */
+
+.textbg6{
+  background:linear-gradient(rgb(235, 231, 231), #5e1069);
+  color: white;
+  padding: 10px 90px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  letter-spacing: 8px;
+}
+.textbg6 a{
+  text-decoration: none;
+ }
+.demonbg{
+  padding: 30px 80px;
+  background:linear-gradient(rgb(235, 231, 231), #5e1069);
+  color: white;
+  
+}
+
+/* deathnote */
+
+.textbg7{
+  background:linear-gradient(rgb(235, 231, 231), #535353);
+  padding: 10px 80px;
+  color: black;
+  text-transform: uppercase;
+  border-radius: 8px;
+  letter-spacing: 8px;
+}
+.textbg7 a{
+  text-decoration: none;
+ }
+.deathnotebg{
+  padding: 30px 80px;
+  background:linear-gradient(rgb(235, 231, 231), #535353);
+  color: black;
+}
+button{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+ }
+ 
